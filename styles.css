@@ -1,11 +1,19 @@
 body {
     background-color: #f7f7f7;
     padding: 0 5%;
+    font-family: sans-serif;
 }
 
 .search-bar {
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     background-color: white;
     box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+
+    i {
+        margin: 0 25px;
+    }
 }
