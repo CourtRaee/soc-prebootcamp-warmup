@@ -1,6 +1,6 @@
 body {
     background-color: #f7f7f7;
-    padding: 0 5%;
+    padding: 3% 0%;
     font-family: sans-serif;
 }
 
@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 0 5%;
 }
 
 .search-bar {
@@ -54,4 +55,36 @@ body {
     height: 20px;
     display: block;
     margin: auto;
+}
+
+.bar-buttons-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.bar-buttons-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5px;
+    text-align: center;
+    font-size: 85%;
+    color: #747474;
+
+    p {
+        margin: 0px;
+    }
+
+    img {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+.bar-buttons-icon.active {
+    color: black;
+    font-weight: 600;
 }
