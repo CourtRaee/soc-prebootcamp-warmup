@@ -196,3 +196,43 @@ body {
         justify-content: center;
     }
 }
+
+.bottom-navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /* height: 65px; */
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 5px;
+}
+
+.navigation-icon {
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin: 6px 0px 0px 0px;
+        font-size: 10px;
+        color: #a1a1a1;
+    }
+
+    .red-explore-text {
+        color: #e91948;
+    }
+}
+
+.line-active {
+    width: 100%;
+    height: 1px;
+    background-color: #e9e9e9;
+}
+
+.bottom-navigation-icons {
+    width: 25px;
+    height: 25px;
+}
