@@ -23,7 +23,7 @@ body {
     align-items: center;
     line-height: 35%;
    
-    i {
+    .search-bar-icon {
         margin: 0 25px;
     }
 }
