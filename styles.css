@@ -1,9 +1,19 @@
+@font-face {
+    font-family: "AirbnbCereal";
+    src:  url('assets/AirbnbCereal_W_Bd.otf') format('opentype'),
+          url('assets/AirbnbCereal_W_Bk.otf') format('opentype'),
+          url('assets/AirbnbCereal_W_Blk.otf') format('opentype'),
+          url('assets/AirbnbCereal_W_Lt.otf') format('opentype'),
+          url('assets/AirbnbCereal_W_Md.otf') format('opentype'),
+          url('assets/AirbnbCereal_W_XBd.otf') format('opentype');
+  }
+
 body {
     background-color: #f7f7f7;
     padding: 3% 0%;
     margin-left: 0;
     margin-right: 0;
-    font-family: sans-serif;
+    font-family: AirbnbCereal_W_Bk, sans-serif;
 }
 
 .search-bar-container {
