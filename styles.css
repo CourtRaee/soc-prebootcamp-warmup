@@ -118,6 +118,13 @@ body {
     box-shadow: 0px 0 5px 0 lightgrey;
 }
 
+.new-underline {
+    margin-left: 26px;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+}
+
 .first-listing-container {
     margin: 5% 5%;
 }
