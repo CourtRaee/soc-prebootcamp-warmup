@@ -28,6 +28,7 @@ body {
 
 .search-bar {
     width: 80%;
+    height: 55px;
     background-color: white;
     box-shadow: 5px 5px 5px #ececec;
     border-radius: 40px;
@@ -38,6 +39,10 @@ body {
     .search-bar-icon {
         margin: 0 25px;
     }
+}
+
+.search-bar-line-height {
+    line-height: 25%;
 }
 
 .search-bar-anywhere {
