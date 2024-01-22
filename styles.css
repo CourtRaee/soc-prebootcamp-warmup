@@ -40,15 +40,15 @@ body {
 }
 
 .search-bar-anywhere {
-    font-weight: 500;
+    font-family: AirbnbCereal_W_Md;
     color: #2a2a2a;
-    font-size: 90%;
+    font-size: 85%;
     align-items: center;
 }
 
 .search-bar-any-week {
     color: #797979;
-    font-size: 80%;
+    font-size: 75%;
     align-items: center;
 }
 
@@ -78,6 +78,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: nowrap;
     width: 100%;
+    font-size: 14px;
 }
 
 .bar-buttons-icon {
@@ -147,12 +148,14 @@ body {
 }
 
 .listing-text-one {
+    font-family: AirbnbCereal_W_Lt;
     line-height: 5px;
     color: #747474;
     font-size: 95%;
 }
 
 .listing-text-one.active {
+    font-family: AirbnbCereal_W_Bk;
     color: black;
     font-weight: 600;
 }
@@ -163,6 +166,7 @@ body {
 }
 
 .listing-text-one-price {
+    font-family: AirbnbCereal_W_Bk;
     color: black;
 }
 
@@ -172,6 +176,7 @@ body {
     margin-top: 8px;
 
     p {
+        font-family: AirbnbCereal_W_Lt;
         margin: 0;
     }
 }
@@ -206,6 +211,8 @@ body {
     justify-content: center;
 
     p {
+        font-family: AirbnbCereal_W_Bk;
+        font-weight: 600;
         justify-content: center;
     }
 }
